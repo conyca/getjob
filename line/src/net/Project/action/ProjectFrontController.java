@@ -19,6 +19,7 @@ public class ProjectFrontController extends HttpServlet {
 
 		ActionForward forward = null;
 		Action action = null;
+		System.out.println("command");
 		
 		if(command.equals("/main.do")){
 			forward = new ActionForward();
