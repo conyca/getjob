@@ -5,9 +5,24 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/incl.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet" type="text/css">
 </head>
 <body>
-	test
-	zzz
+	<!-- header -->
+	<div>
+		<jsp:include page="../main/header.jsp"/>
+	</div><!-- header -->
+	
+	<div style = "min-height:300px;">
+		main
+	</div>
+	
+	<!-- footer -->
+	<div>
+		<jsp:include page="../main/footer.jsp"/>
+	</div><!-- footer -->
+
 </body>
 </html>
