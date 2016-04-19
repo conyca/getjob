@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
     
 <div id = "headerWrap">
 	
@@ -9,9 +9,17 @@
 		<div id = "h1_inner">
 			<div id ="h1_in1">
 				<ul>
-					<li><a href ="#">LOGIN</a></li>
-					<li><a href ="#">JOIN US</a></li>
-					<li><a href ="#">ORDER</a></li>
+				<c:choose>
+					<c:when test="${empty sessionScop.id }">
+						<li><a href ="#">LOGIN</a></li>
+						<li><a href ="#">JOIN US</a></li>
+						<li><a href ="#">ORDER</a></li>
+					</c:when>
+					<c:otherwise>
+						<li><a href ="#">LOGOUT</a></li>
+						<li><a href ="#">ORDER</a></li>
+					</c:otherwise>
+				</c:choose>
 				</ul>
 			</div><!-- h1_in1 끝 -->
 			
