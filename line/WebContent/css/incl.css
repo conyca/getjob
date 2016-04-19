@@ -32,7 +32,7 @@ legend {height:0px; width: 0px; display: block; text-indent: -9999em;}
 #gnb_left ul li a:HOVER {color: #656565;}
 #gnb_right {float : right;}
 #gnb_right ul li {float:left; margin-left:30px;}
-
+#gnb_right ul li a:HOVER {color: #656565;}
 
 /* footer */
 #footWrap {width:100%; font-family: 'Open Sans',sans-serif,arial; font-size: 11px; border-top: 1px solid #eaeaea; padding: 30px 0;}
