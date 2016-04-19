@@ -27,9 +27,15 @@
 
 
 /* exhibit */
-
-
-
+.itemTitle{text-align: left; padding-bottom: 10px; font-family: 'Open Sans',sans-serif,arial; font-size: 10px; letter-spacing: 1px; color: #6a6a6a; border-bottom: 1px solid #eaeaea; width: 1170px; margin: 0 auto; margin-bottom: 12px; height:100%; overflow: hidden;}
+#exhibitItem {width: 1200px; height:100%; overflow: hidden;}
+#mainNewItem > ul {margin-bottom : 40px; width:100%; height:100%px;overflow: hidden;}
+.itemLi { float:left; width:270px; text-align: left; margin-left : 15px; margin-bottom:40px; margin-right:15px;heigth:100%;}
+.name { clear : both; line-height: 20px; font-size: 13px; margin-top: 20px; font-weight: bold; color: #000;}
+.printImg { margin-bottom:10xp; height:100%;overflow: hidden;}
+.infor {line-height: 16px; font-size: 11px; margin-top: 10px; color: #777777;}
+.price {color: #454545; text-decoration: none !important;    font-size: 11px;
+    font-weight: bold; margin-right: 5px; line-height: 35px;}
 /* exhibit */
 
 
