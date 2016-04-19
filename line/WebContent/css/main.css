@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+
+#mainWrap {width: 1170px; margin:0 auto; min-height:300px;}
+
+/* slider */
+.sliderWrap {width:1170px; height: 507px; overflow: hidden; border-bottom: 1px solid #d8d8d8; margin : 0px auto 70px auto;}
+
+/* slider */
+
+
+/* mainBox */
+#mainBox{ height : 100%; overflow: hidden; margin-bottom:80px;}
+.title1 { text-align: left; padding-bottom: 10px; font-family: 'Open Sans',sans-serif,arial; font-size: 10px; letter-spacing: 1px; color: #6a6a6a; border-bottom: 1px solid #eaeaea; margin-bottom: 12px;}
+#eventMonth {width: 450xp; float: left;}
+#eventTitle{width:450px;}
+#snsBox {width: 350px; float: left; margin : 0 20px;}
+#snsTitle{width:350px;}
+#noticeBox {width:330px; float: right;}
+#noticeTitle{width:330px;}
+#noticeTabel{width:330px;}
+#noticeTabel table {width:100%;}
+#noticeTabel table tr {border-collapse: collapse;}
+#noticeTabel table tr td{ padding : 9px 0 9px 0;clear: both; border-bottom: 1px solid #eaeaea; height: 16px; font-size: 11px; font-family: 'NanumGothic','나눔고딕','NanumGothicWeb','맑은 고딕','Malgun Gothic',Dotum;}
+#noticeTabel table tr:first-child td{ padding : 0 0 8px 0;}
+
+/* mainBox */
+
+
+/* exhibit */
+
+
+
+/* exhibit */
+
+
+
+
+
+
+
+
+
+
+
+
+
