@@ -8,6 +8,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import net.Project.admin.goods.action.GoodsListAction;
+
 
 
 public class ProjectFrontController extends HttpServlet {
@@ -47,6 +49,15 @@ public class ProjectFrontController extends HttpServlet {
 			forward = new ActionForward();
 			forward.setPath("/admin/main.jsp");
 			forward.setRedirect(false);
+		}
+		else if(command.equals("/admin/goods/list.do")){
+			action = new GoodsListAction();
+			
+			try {
+				forward = action.execute(request, response);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
 		
 		if (forward != null) {

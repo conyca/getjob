@@ -7,6 +7,7 @@
 <title>관리자</title>
 </head>
 <body>
-관리자 메인입니다.
+관리자 메인입니다.<br/>
+<a href="./goods/list.do">상품 목록</a>
 </body>
 </html>
