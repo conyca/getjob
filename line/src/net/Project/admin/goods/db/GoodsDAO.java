@@ -16,9 +16,9 @@ public class GoodsDAO {
 	private Connection getConnection() throws Exception {
 		Connection con = null;
 		Context init = new InitialContext();
-		DataSource ds = (DataSource) init.lookup("java:comp/env/jdbc/ora11g");
 		// java:comp/env/context.xml 이름(예: jdbc/orcl)
-		//DataSource ds = (DataSource) init.lookup("java:comp/env/jdbc/orcl");
+		DataSource ds = (DataSource) init.lookup("java:comp/env/jdbc/orcl");
+//		DataSource ds = (DataSource) init.lookup("java:comp/env/jdbc/ora11g");
 		con = ds.getConnection();
 		return con;
 	}
