@@ -18,8 +18,22 @@ public class ProjectFrontController extends HttpServlet {
 		String command = requestURI.substring(contextPath.length());
 
 		ActionForward forward = null;
-		Action action = null;
+		Action action = null;		
 		System.out.println("command : " + command);
+//		http://localhost:8080/line/main.do
+//		requestURI : /line/main.do
+//		contextPath : /line
+//		command : /main.do
+//
+//		http://localhost:8080/line/admin/main.do
+//		requestURI : /line/admin/main.do
+//		contextPath : /line
+//		command : /admin/main.do
+//
+//		http://localhost:8080/line/admin/member/main.do
+//		requestURI : /line/admin/member/main.do
+//		contextPath : /line
+//		command : /admin/member/main.do		
 		
 		if(command.equals("/main.do")){
 			forward = new ActionForward();
@@ -27,6 +41,12 @@ public class ProjectFrontController extends HttpServlet {
 			forward.setRedirect(false);
 //			
 			
+		}
+		// 관리자 - 메인
+		else if(command.equals("/admin/main.do")){
+			forward = new ActionForward();
+			forward.setPath("/admin/main.jsp");
+			forward.setRedirect(false);
 		}
 		
 		if (forward != null) {
