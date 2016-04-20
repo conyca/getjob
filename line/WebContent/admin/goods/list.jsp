@@ -19,7 +19,7 @@
 		<th>수정일</th>
 	</tr>
 <c:forEach var="list" items="${goodsList }">
-	<tr>
+	<tr>		
 		<td>${list.goodsNo }</td>
 		<td>${list.goodsImg }</td>
 		<td>${list.goodsNm }</td>
@@ -29,6 +29,11 @@
 		<td>${list.update_date }</td>
 	</tr>
 </c:forEach>
+<c:if test="${empty goodsList }">
+	<tr>
+		<td colspan="7">상품이 없습니다.</td>
+	</tr>
+</c:if>
 </table>
 </body>
 </html>

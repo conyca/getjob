@@ -35,7 +35,7 @@ public class GoodsDAO {
 			sql = "SELECT * FROM goods";
 			pstmt = con.prepareStatement(sql);
 			rs = pstmt.executeQuery();
-			if(rs.next()){
+			while(rs.next()){
 				GoodsBean goodsbean = new GoodsBean();
 				goodsbean.setGoodsNo(rs.getInt("goodsNo"));
 				goodsbean.setGoodsNm(rs.getString("goodsNm"));

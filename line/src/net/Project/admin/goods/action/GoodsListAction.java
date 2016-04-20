@@ -20,7 +20,7 @@ public class GoodsListAction implements Action {
 		GoodsDAO goodsdao = new GoodsDAO();
 		List<GoodsBean> goodsList = null;
 		goodsList = goodsdao.getAllList();
-		
+
 		request.setAttribute("goodsList", goodsList);
 		
 		forward.setPath("./list.jsp");
