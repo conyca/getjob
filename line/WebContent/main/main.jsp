@@ -17,7 +17,7 @@
 	</div><!-- header -->
 	
 	<div id = "mainWrap">
-		<div class = "sliderWrap">!!<a href="./goods/list.do">상품 목록</a>!!
+		<div class = "sliderWrap">
 			<div >
 				<ul>
 					<li><a><img src="./img/main/03.jpg"></a></li>
