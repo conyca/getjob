@@ -1,0 +1,9 @@
+<Context>
+	<Resource name="jdbc/ora11g" 
+			  auth="Container"
+			  type="javax.sql.DataSource"
+			  driverClassName="oracle.jdbc.OracleDriver"
+			  url="jdbc:oracle:thin:@localhost:1521/ora11g"
+			  username="www"
+			  password="erp00500" />
+</Context> 
