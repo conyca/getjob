@@ -44,7 +44,7 @@ public class ProjectFrontController extends HttpServlet {
 //			
 			
 		}
-		// 관리자 - 메인
+		// 愿�━��- 硫붿씤
 		else if(command.equals("/admin/main.do")){
 			forward = new ActionForward();
 			forward.setPath("/admin/main.jsp");
@@ -59,6 +59,20 @@ public class ProjectFrontController extends HttpServlet {
 				e.printStackTrace();
 			}
 		}
+		
+		
+		// 주문 부분
+		else if(command.equals("/order.do")){
+			forward = new ActionForward();
+			forward.setPath("./order/orderForm.jsp");
+			forward.setRedirect(false);
+		}
+		else if(command.equals("/order_result.do")){
+			forward = new ActionForward();
+			forward.setPath("./order/orderResult.jsp");
+			forward.setRedirect(false);
+		}
+
 		
 		if (forward != null) {
 			if (forward.isRedirect()) {
