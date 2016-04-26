@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+* { margin : 0; padding : 0; }
+body, code { font: 11px "Segoe UI",'Lato',Corbel,arial,Verdana,돋움,Dotum,나눔고딕,NanumGothic,"맑은 고딕","Malgun Gothic",AppleGothic,Helvetica,sans-serif; color: #000; background: #fff;}
+div {display: block;}
+img, fieldset {border : none;}
+input, select, textarea { font-size: 100%; font-family: "돋움",Dotum; color: #333; vertical-align: middle;}
+option { font-weight: normal; display: block; white-space: pre; min-height: 1.2em; padding: 0px 2px 1px;}
+caption { visibility: hidden; position: absolute; left: -1000px; top: -1000px; height: 0; width: 0; display: none;}
+ul {list-style: none;}
+li {list-style: none;}
+table { border-spacing: 0; border: 0; border-collapse: collapse; width: 100%;}
+thead { display: table-header-group; vertical-align: middle; border-color: inherit;}
+tr { display: table-row; vertical-align: inherit; border-color: inherit;}
+th, td { border: 0; vertical-align: top;}
+tfoot { display: table-footer-group; vertical-align: middle; border-color: inherit;}
+a {color: inherit; text-decoration: none;}
+strong, b {font-weight: bold;}
+
+
+.displaynone {display: none !important;}
+#container3 { width: 1170px; margin: 0 auto; margin-top: 40px; margin-bottom: 50px;}
+#contents {min-height: 500px;}
+.titleArea { border: 1px solid #eaeaea; border-bottom: 2px solid #eaeaea; margin: 0 auto; padding-top: 7px; height: 25px; margin-bottom: 50px; width: 150px; color: #000; text-align: center; text-transform: upper; line-height: 18px;}
+.titleArea h2 { font-family: 'Open Sans',sans-serif,arial; font-size: 11px; font-weight: normal;}
+
+.bt1 { padding: 6px 12px 4px 12px;}
+.bt2 { padding: 8px 12px 6px 12px;}
+.bt4 { padding: 12px 12px 10px 12px; font-size: 12px; font-weight: bold;}
+.margin1 { margin: 3px 0;}
+.ga09_button_class { font-size: 11px; font-family: Arial; font-weight: normal; border: 1px solid #dcdcdc; text-decoration: none; background-color: #ffffff; display: inline-block;}
+.ga09_button_class2 { font-size: 11px; font-family: Arial; font-weight: normal; border: 1px solid #646464; text-decoration: none; background-color: #646464; background-color: #646464; display: inline-block;}
+.ga09_button_class2:link { color: #fff;}
+.ga09_button_class2:visited { color: #fff;}
+.ga09_button_class2:hover { text-decoration: none; position: relative; background-color: #fa3f51; border: 1px solid #000; color: #fff; top: 0px;}
