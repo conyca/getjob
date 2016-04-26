@@ -1,0 +1,18 @@
+@CHARSET "EUC-KR";
+
+/* 이용안내  */
+
+.help { margin: 40px 0 0; border: 1px solid #d6d4d4; line-height: 18px; font-size: 11px;}
+.help h3 { padding: 9px 0 6px 10px; border-bottom: 1px solid #e8e7e7; color: #000; font-size: 11px; background: #fbfbfb;}
+.help .content { padding: 0 9px 12px;}
+.help .content h4 { margin: 22px 0 -4px; color: #000; font-size: 11px; font-weight: normal;}
+.help .content h4:first-child { margin-top: 13px;}
+.help .content ul { margin: 15px 0 0 11px;}
+.help .content li { padding: 0 0 0 25px; color: #000; background: url("http://img.echosting.cafe24.com/skin/base_ko_KR/common/ico_number.png") no-repeat;}
+.help .content li.item1 { background-position: -484px 0;}
+.help .content li.item2 { background-position: -434px -100px;}
+.help .content li.item3 { background-position: -384px -200px;}
+.help .content li.item4 { background-position: -334px -300px;}
+.help .content li.item5 { background-position: -284px -400px;}
+.help .content li.item6 { background-position: -234px -500px;}
+
