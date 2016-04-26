@@ -1,0 +1,95 @@
+@CHARSET "EUC-KR";
+
+.xans-order-result .title { margin: 40px 0 10px 10px;}
+.xans-order-result .title h3 { color: #353535; font-size: 11px;}
+.xans-order-result .bankBenefit { position: relative; margin: 20px 0 0; padding: 10px 5px 10px 105px; border: 5px solid #e8e8e8; color: #353535; line-height: 1.5; font-size: 11px;}
+.xans-order-result .bankBenefit h3 { position: absolute; left: 0; top: 0; width: 105px; height: 100%; color: #353535; font-size: 11px; text-align: center;}
+.xans-order-result .bankBenefit h3 strong { display: table; width: 105px; height: 100%;}
+.xans-order-result .bankBenefit h3 strong span { display: table-cell; vertical-align: middle;}
+.xans-order-result .bankBenefit .info { padding: 0 0 0 15px; border-left: 1px solid #e8e8e8;}
+.xans-order-result .bankBenefit .info .mileage { margin: 6px 0 0; padding: 10px 0 0; border-top: 1px solid #e8e8e8;}
+.xans-order-result .bankBenefit .info .mileage li { float: left; margin: 0 40px 0 0;}
+.xans-order-result .bankBenefit .info .mileage li a { text-decoration: none;}
+.xans-order-result .bankBenefit .info .mileage li strong { color: #008bcc;}
+.xans-order-result .bankBenefit .info .mileage:after { content: ""; display: block; clear: both;}
+
+.xans-order-result .orderInfo { width: 380px; margin: 45px auto 0; padding: 0 0 10px 130px; color: #353535; line-height: 1.5; background: url("http://img.echosting.cafe24.com/skin/base_ko_KR/order/bg_result.gif") no-repeat 0 10px; font-size: 11px;}
+.xans-order-result .orderInfo p { margin: 0 0 20px;}
+.xans-order-result .orderInfo p strong { display: block; margin: 0 0 7px; color: #000; font-size: 20px; font-family: gulim,sans-serif;}
+.xans-order-result .orderInfo p a { color: #008bcc; text-decoration: underline; font-weight: bold;}
+.xans-order-result .orderInfo li strong { font-size: 14px; letter-spacing: -1px;}
+
+.xans-order-result .boardView { border: 1px solid #d7d5d5; font-size: 11px;}
+.xans-order-result .boardView table { table-layout: fixed; color: #353535; line-height: 1.5;}
+.xans-order-result .boardView tbody tr:first-child th, .xans-order-result .boardView tbody tr:first-child td { border-top: 0;}
+.xans-order-result .boardView th { width: 120px; padding: 11px 0 10px 19px; border-top: 1px solid #e9e9e9; border-right: 1px solid #e9e9e9; font-weight: normal; text-align: left; background: #fbfafa;}
+.xans-order-result .boardView td { width: auto; padding: 11px 0 10px 10px; border-top: 1px solid #e9e9e9;}
+.xans-order-result .boardView img { vertical-align: middle;}
+.xans-order-result .boardView .price { padding-top: 6px; padding-bottom: 7px; color: #008bcc; font-size: 17px; font-weight:normal; line-height: 1.5;}
+.xans-order-result .boardView .price .tail { font-size: 12px;}
+
+.xans-order-result .orderListArea .title { margin-top: 30px;}
+
+.xans-order-result .boardList { table-layout: fixed; margin: 0 0 1px; border: 1px solid #d7d5d5; color: #353535; line-height: 1.5; font-size: 11px;}
+.xans-order-result .boardList th { padding: 11px 0 9px; border-left: 1px solid #e9e9e9; font-weight: normal; background: #fbfafa;}
+.xans-order-result .boardList th:first-child { border-left: 0;}
+.xans-order-result .boardList td { padding: 8px 0 5px; border-top: 1px solid #e9e9e9; text-align: center; vertical-align: middle; word-wrap: break-word;}
+.xans-order-result .boardList td.thumb img { width: 80px;}
+.xans-order-result .boardList td.product { padding-left: 10px; text-align: left;}
+.xans-order-result .boardList td.product a { color: #353535;}
+.xans-order-result .boardList td.product div.option, .xans-order-result .boardList td.product ul.option > li { margin: 9px 0 0; color: #757575; line-height: 16px;}
+.xans-order-result .boardList td.product .free { margin: 5px 0 0;}
+.xans-order-result .boardList td.mileage, .xans-order-result .boardList td.delivery { color: #757575;}
+.xans-order-result .boardList .thumb { width: 92px;}
+.xans-order-result .boardList .product { width: auto;}
+.xans-order-result .boardList .price { width: 100px;}
+.xans-order-result .boardList .quantity { width: 40px;}
+.xans-order-result .boardList .mileage { width: 85px;}
+.xans-order-result .boardList .delivery { width: 95px;}
+.xans-order-result .boardList .total { width: 140px;}
+.xans-order-result .boardList tfoot td { padding: 15px 10px 17px; background: #fbfafa; text-align: right;}
+.xans-order-result .boardList tfoot td .type { float: left; margin: 6px 0 0; font-weight: normal;}
+.xans-order-result .boardList tfoot td .total { margin: 0 0 0 15px; color: #008bcc;}
+.xans-order-result .boardList tfoot td .total span { font-size: 17px; letter-spacing: -1px;}
+
+.xans-order-result .totalArea { margin: 40px 0 0; color: #353535; line-height: 1.5; font-size: 11px;}
+.xans-order-result .totalArea .summary { border: 1px solid #777;}
+.xans-order-result .totalArea .summary th { height: 39px; border-left: 1px solid #e9e9e9; line-height: 39px; background: #fbfafa;}
+.xans-order-result .totalArea .summary th:first-child, .xans-order-result .totalArea .summary td:first-child { border-left: 0;}
+.xans-order-result .totalArea .summary th img { margin: 0 0 0 10px; vertical-align: middle;}
+.xans-order-result .totalArea .summary td { height: 58px; border-top: 1px solid #e9e9e9; border-left: 1px solid #e9e9e9; line-height: 58px; text-align: center; font-size: 23px;}
+.xans-order-result .totalArea .summary td .box { word-wrap: break-word; word-break: break-all;}
+.xans-order-result .totalArea .summary td strong { letter-spacing: -1px;}
+.xans-order-result .totalArea .summary td .tail { font-size: 14px;}
+.xans-order-result .totalArea .summary td.total { color: #008bcc;}
+.xans-order-result .totalArea .summary .price2 { width: 67%;}
+.xans-order-result .totalArea .summary .option { width: 34%;}
+.xans-order-result .totalArea .summary .total { width: 33%;}
+
+.xans-order-result .totalArea .detail { border: 1px solid #d7d5d5;}
+.xans-order-result .totalArea .detail th { width: 140px; padding: 11px 0 10px 20px; border-top: 1px solid #e9e9e9; text-align: left; font-weight: normal;}
+.xans-order-result .totalArea .detail td { padding: 8px 0 8px 10px; border-left: 1px solid #e9e9e9; border-top: 1px solid #e9e9e9; vertical-align: middle;}
+.xans-order-result .totalArea .detail .total th { width: 150px; padding-left: 10px;}
+.xans-order-result .totalArea .detail .total th, .xans-order-result .totalArea .detail .total td { font-weight: bold; background: #fbfafa;}
+.xans-order-result .totalArea .detail .total td strong { font-size: 14px;}
+.xans-order-result .totalArea .detail .grid { display: inline-block; min-width: 90px;}
+
+.xans-order-result .btnArea { margin: 20px 0 0; text-align: center;}
+
+/*  총 주문금액 상세내역 레이어 */
+.xans-order-result .totalDetail { display: none; position: absolute; z-index: 100; width: 300px; color: #757575;}
+.xans-order-result .totalDetail h3 { height: 35px; padding: 0 35px 0 19px; color: #fff; font-size: 14px; line-height: 35px; background: #495164;}
+.xans-order-result .totalDetail .content { padding: 20px; border: 1px solid #757575; border-top: 0; background: #fff;}
+.xans-order-result .totalDetail .content p { color: #008bcc; font-size: 16px; font-weight: bold; text-align: right;}
+.xans-order-result .totalDetail .content ul { line-height: 25px;}
+.xans-order-result .totalDetail .content li { overflow: hidden; padding: 0 0 0 6px; background: url("http://img.echosting.cafe24.com/skin/base_ko_KR/common/ico_info2.gif") no-repeat 0 10px;}
+.xans-order-result .totalDetail .content li:first-child { margin: 8px 0 0; padding-top: 6px; border-top: 1px dotted #b0b1b3; background-position: 0 16px;}
+.xans-order-result .totalDetail .content li strong { float: left; font-weight: normal;}
+.xans-order-result .totalDetail .content li span { float: right;}
+.xans-order-result .totalDetail .close { position: absolute; right: 20px; top: 10px;}
+.xans-order-result .totalDetail .close img { cursor: pointer;}
+
+
+
+
+
