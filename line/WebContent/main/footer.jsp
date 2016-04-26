@@ -2,7 +2,8 @@
     pageEncoding="UTF-8"%>
 
     
-    
+	<!-- footer -->
+	<div>    
     
 <div id = "footWrap">
 	<div id = "foot1">

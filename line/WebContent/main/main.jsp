@@ -3,7 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
 
 		<jsp:include page="../main/header.jsp"/>
-	</div><!-- header -->
+
 	
 	<div id = "mainWrap">
 		<div class = "sliderWrap">
@@ -240,6 +240,5 @@
 		</div>
 	</div>
 	
-	<!-- footer -->
-	<div>
+
 		<jsp:include page="../main/footer.jsp"/>
